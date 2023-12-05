@@ -91,16 +91,16 @@ const uri = "mongodb+srv://d:1234@cluster0.gvlrcbi.mongodb.net/?retryWrites=true
                     await client.connect();
                     console.log('Connected to MongoDB Atlas cluster');
     
-                    const Flight = client.db('flightdetails').collection('flightnames');
+                    const Flight = client.db('webfinal').collection('laptops');
     
                     //const projection = {_id}; // exclude _id field
     
                     const collectionData = {
     
                         
-                        FlightDetails: await Flight.find().toArray()
+                        LaptopDetails: await Flight.find().toArray()
                     };
-                    //const cars = await carCollection.find().toArray();
+                    
                     console.log(collectionData);
     
     
