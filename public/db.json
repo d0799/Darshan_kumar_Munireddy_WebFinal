@@ -1,48 +1,57 @@
-{"flight": [{
-  "id":1,
-  "name": "Airbus A380-800",
-  "maxspeed": "683mph",
-  "year": 2005,
-  "capacity": 509,
-  "condition": "used"
-},
-{
-  "id":2,
-  "name": "Boeing 747-8",
-  "maxspeed": "614mph",
-  "year": 2005,
-  "capacity": 467,
-  "condition": "used"
-},
-{
-  "id":3,
-  "name": "Boeing 747-400",
-  "maxspeed": "614mph",
-  "year": 1988,
-  "capacity": 568,
-  "condition": "used"
-},
-{
-  "id":4,
-  "name": "Boeing 777-300",
-  "maxspeed": "590mph",
-  "year": 2004,
-  "capacity": 388,
-  "condition": "used"
-},
-{
-  "id":5,
-  "name": "Airbus A340-600",
-  "maxspeed": "567mph",
-  "year": 1997,
-  "capacity": 370,
-  "condition": "used"
-},
-{
-  "id":6,
-  "name": "Boeing 777-200",
-  "maxspeed": "590mph",
-  "year": 1994,
-  "capacity": 312,
-  "condition": "used"
-}]}
+{"Laptops": [{
+    "Brand": "Apple",
+    "Price": 1999,
+    "Storage": "1 TB",
+    "Display": "14 inch",
+    "Processor": "M2 chip",
+    "Color": "Sliver",
+    "Battery life": "15 hrs"
+  
+  },
+  {
+    "Brand": "Apple",
+    "Price": 1499,
+    "Storage": "512 GB",
+    "Display": "13 inch",
+    "Processor": "M1 chip",
+    "Color": "Grey",
+    "Battery life": "12 hrs"
+  },
+
+  {
+    "Brand": "Dell",
+    "Price": 899,
+    "Storage": "512 GB",
+    "Display": "14 inch",
+    "Processor": "i7",
+    "Color": "Black",
+    "Battery life":"8 hrs"
+  },
+  {
+    "Brand": "HP",
+    "Price": 1299,
+    "Storage": "512 GB",
+    "Display": "15 inch",
+    "Processor": "i5",
+    "Color": "Blue",
+    "Battery life": "10 hrs"
+  },
+  {
+    "Brand": "Alien",
+    "Price": 1999,
+    "Storage": "2TB",
+    "Display": "16 inch",
+    "Processor": "i9",
+    "Color": "White",
+    "Battery life": "12 hrs"
+  },
+  {
+    "Brand": "ASUS",
+    "Price": 1499,
+    "Storage": "1 TB",
+    "Display": "14 inch",
+    "Processor": "i7",
+    "Color": "Red",
+    "Battery life": "10 hrs"
+  }]}
+  
