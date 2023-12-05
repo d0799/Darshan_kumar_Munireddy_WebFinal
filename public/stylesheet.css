@@ -1,0 +1,143 @@
+:root{
+    --black:  #000000;
+    --white: white;
+    --yellow: #c4fa31;
+    --skyblue: #c8fcf7;
+    --lightblue: #cbf6f7;
+    --width: 1333px;
+    --padding: 5px;
+
+}
+body {
+    height: fit-content;
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
+    grid-gap: 2px;
+    grid-template-areas: 
+" title"
+" menu-bar "
+" about "
+" education "
+" experience "
+" projects "
+" blogs "
+" contact ";
+  }
+
+  .title {
+    background-color: var(--black);
+    color: var(--white);
+  }
+  
+  .boxcolor {
+    color: var(--white);
+    background-color: var(--black);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px;
+  }
+  
+  .rowa {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 0.3fr));
+    grid-gap: 20px;
+    max-width: var(--width);
+  }
+  
+  .menu {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .text {
+    padding-left: var(--padding);
+    text-align: justify;
+
+  }
+  
+  .nav {
+    color: var(--black);
+    height: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+  }
+  
+  header {
+    background-color: var(--black);
+    height: 25px;
+    max-width: var(--width);
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .Contact {
+    width: 70px;
+    height: 100px;
+    padding-top: 2px;
+    padding-left: 15px;
+    justify-content: space-around;
+  }
+  
+  #About {
+    background-color: var(--skyblue);
+  }
+  
+  #Education {
+    background-color: var(--skyblue);
+  }
+  
+  #Experience {
+    background-color: var(--skyblue);
+  }
+  
+  #Projects {
+    background-color: var(--skyblue);
+  }
+  
+  #Blogs {
+    background-color: var(--skyblue);
+  }
+  
+  #Contact {
+    background-color: var(--lightblue);
+  }
+  
+  .columnb {
+    display: flex;
+    float: left;
+    width: 323px;
+    padding: 5px;
+  }
+  
+  .row::after {
+    display: flex;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /*mobile layout screen responsive less than 500px*/
+  @media (max-width: 500px) {
+    .rowa {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+      grid-template-areas: 
+      " title"
+      " menu-bar"
+      " about"
+      " education"
+      " experience"
+      " projects"
+      " blogs"
+      " contact";
+      grid-gap: 10px;
+      padding:  10px;
+    }
+  }
+  

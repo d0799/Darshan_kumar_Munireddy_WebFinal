@@ -1,0 +1,48 @@
+{"flight": [{
+  "id":1,
+  "name": "Airbus A380-800",
+  "maxspeed": "683mph",
+  "year": 2005,
+  "capacity": 509,
+  "condition": "used"
+},
+{
+  "id":2,
+  "name": "Boeing 747-8",
+  "maxspeed": "614mph",
+  "year": 2005,
+  "capacity": 467,
+  "condition": "used"
+},
+{
+  "id":3,
+  "name": "Boeing 747-400",
+  "maxspeed": "614mph",
+  "year": 1988,
+  "capacity": 568,
+  "condition": "used"
+},
+{
+  "id":4,
+  "name": "Boeing 777-300",
+  "maxspeed": "590mph",
+  "year": 2004,
+  "capacity": 388,
+  "condition": "used"
+},
+{
+  "id":5,
+  "name": "Airbus A340-600",
+  "maxspeed": "567mph",
+  "year": 1997,
+  "capacity": 370,
+  "condition": "used"
+},
+{
+  "id":6,
+  "name": "Boeing 777-200",
+  "maxspeed": "590mph",
+  "year": 1994,
+  "capacity": 312,
+  "condition": "used"
+}]}
