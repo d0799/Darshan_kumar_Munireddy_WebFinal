@@ -75,7 +75,8 @@ const server = http.createServer((req, res)=>{
             main(processData);
             async function main(callback) {
     
-                const uri = "mongodb+srv://teja:webdatabase@flightcluster.b1toamz.mongodb.net/?retryWrites=true&w=majority";
+                
+const uri = "mongodb+srv://d:1234@cluster0.gvlrcbi.mongodb.net/?retryWrites=true&w=majority";
                 //const client = new MongoClient(uri, { useUnifiedTopology: true });
                 //const client = new MongoClient(uri);
                 const client = new MongoClient(uri, {useUnifiedTopology:true
